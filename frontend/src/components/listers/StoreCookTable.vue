@@ -70,6 +70,7 @@
                     { text: "foodId", value: "foodId" },
                     { text: "options", value: "options" },
                     { text: "address", value: "address" },
+                    { text: "status", value: "status" },
                 ],
             cook : [],
             newValue: {},
@@ -90,6 +91,7 @@
                 'foodId': '',
                 'options': '',
                 'address': '',
+                'status': '',
             }
         },
         methods: {

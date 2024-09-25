@@ -112,6 +112,7 @@
                 'foodId': '',
                 'options': '',
                 'address': '',
+                'status': '',
             }
         },
         methods:{

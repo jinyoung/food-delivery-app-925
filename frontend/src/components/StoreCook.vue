@@ -19,6 +19,7 @@
             <String label="FoodId" v-model="value.foodId" :editMode="editMode" :inputUI="''"/>
             <String label="Options" v-model="value.options" :editMode="editMode" :inputUI="''"/>
             <String label="Address" v-model="value.address" :editMode="editMode" :inputUI="''"/>
+            <String label="Status" v-model="value.status" :editMode="editMode" :inputUI="''"/>
         </v-card-text>
 
         <v-card-actions style="background-color: white;">

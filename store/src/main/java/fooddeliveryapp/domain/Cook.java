@@ -28,6 +28,8 @@ public class Cook {
 
     private String address;
 
+    private String status;
+
     @PostPersist
     public void onPostPersist() {
         OrderReceived orderReceived = new OrderReceived(this);
